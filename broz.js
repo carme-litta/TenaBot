@@ -3944,7 +3944,7 @@ if (args.length < 1) return reply('Escribe el texto que se mostrara en pastebin.
 paste = `${args.join(' ')}`
 reply(mess.wait)
 anu = await getJson(`https://api-anoncybfakeplayer.herokuapp.com/pastebin?text=${paste}`, {method: 'get'})
-samu330.sendMessage(from, `${anu.result}`, MessageType.text, {quoted: ftoko, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
+broz.sendMessage(from, `${anu.result}`, MessageType.text, {quoted: ftoko, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
 break
 
 case 'abinario':
@@ -4006,7 +4006,7 @@ method: 'get'
 })
 reply(mess.wait)
 buffer = await getBuffer(`${porn.url}`)
-samu330.sendMessage(from, buffer, image, {
+broz.sendMessage(from, buffer, image, {
 fimg})
 break
 
