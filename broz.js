@@ -43,7 +43,7 @@ const fromBuffer = require('file-type');
 const FormData = require('form-data')
 const samuGg = require('google-it');
 const samuGgImg = require('g-i-s');
-////////////▶ | 𝐁𝐫𝐨𝐳|𝐀𝐱𝐞𝐥𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
+////////////▶ | 𝐁𝐫𝐨𝐳 | 𝐀𝐱𝐞𝐥 𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
 
 const {y2mateA, y2mateV} = require('./lib/y2mate.js')
 const {sm330mfire} = require('./lib/mediafire.js')
@@ -68,7 +68,7 @@ const getRandom = help.getRandomExt
 const postJson = help.postJson
 const getJson = help.getJson
 const bro = JSON.parse(fs.readFileSync('./setting.json'))
-const bodyM = samu.samuM
+const bodyM = bro.samuM
 const antimedia = JSON.parse(fs.readFileSync('./src/antimedia.json'))
 const antifake = JSON.parse(fs.readFileSync('./src/antifake.json'))
 const bad = JSON.parse(fs.readFileSync('./src/bad.json'))
@@ -85,14 +85,14 @@ const owner = config.owner
 const mods = config.mods
 const fake = 'Broz'
 var public = config.public
-////////////▶ | 𝐁𝐫𝐨𝐳|𝐀𝐱𝐞𝐥𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
+////////////▶ | 𝐁𝐫𝐨𝐳 | 𝐀𝐱𝐞𝐥 𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
 conn.connect()
 const broz = conn.broz
-////////////▶ | 𝐁𝐫𝐨𝐳|𝐀𝐱𝐞𝐥𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
+////////////▶ | 𝐁𝐫𝐨𝐳 | 𝐀𝐱𝐞𝐥 𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
 const sleep = async (ms) => {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
-////////////▶ | 𝐁𝐫𝐨𝐳|𝐀𝐱𝐞𝐥𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
+////////////▶ | 𝐁𝐫𝐨𝐳 | 𝐀𝐱𝐞𝐥 𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
 api = 'CONTACTAME PARA OBTENER LA API'
 fak = 'broz'
 prefix = '.'
@@ -158,7 +158,7 @@ message: {
 await sleep(4000)
 await broz.blockUser(callerId, "add")
 })
-////////////▶ | 𝐁𝐫𝐨𝐳|𝐀𝐱𝐞𝐥𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
+////////////▶ | 𝐁𝐫𝐨𝐳 | 𝐀𝐱𝐞𝐥 𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
 broz.on('CB:action,,battery', json => {
 global.batteryLevelStr = json[2][0][1].value
 global.batterylevel = parseInt(batteryLevelStr)
@@ -167,7 +167,7 @@ if (json[2][0][1].live == 'true') charging = true
 if (json[2][0][1].live == 'false') charging = false
 console.log(chalk.greenBright("├"), chalk.keyword("magenta")("[ 🔋Nivel de carga de la bateria ]"), chalk.greenBright(batterylevel+'%'), chalk.keyword("cyan")("Esta cargando?"), chalk.keyword("yellow")(charging))	
 })
-////////////▶ | 𝐁𝐫𝐨𝐳|𝐀𝐱𝐞𝐥𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
+////////////▶ | 𝐁𝐫𝐨𝐳 | 𝐀𝐱𝐞𝐥 𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
 broz.on('blocklist-update', async (chat) => {
 for (i of chat.added){
 target = i.replace('@c.us', '@s.whatsapp.net')
@@ -180,7 +180,7 @@ blocked.splice(blocked.indexOf(target), 1)
 console.log(chalk.greenBright("├"), chalk.keyword("green")("[ NUEVO USUARIO DESBLOQUEADO ]"), chalk.keyword("cyan")(target))
 }
 })
-////////////▶ | 𝐁𝐫𝐨𝐳|𝐀𝐱𝐞𝐥𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
+////////////▶ | 𝐁𝐫𝐨𝐳 | 𝐀𝐱𝐞𝐥 𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
 broz.on('group-update', async(chat) => {
 var donde = chat.jid
 var group = await broz.groupMetadata(donde)
@@ -191,7 +191,7 @@ broz.sendMessage(group.id, mensajeDesc, MessageType.text)
 console.log(chalk.greenBright("├"), chalk.keyword("yellow")("[ DESCRIPCION CAMBIADA ]"), chalk.keyword("cyan")('grupo'), chalk.keyword("green")(`${group.subject}`))
 }
 })
-////////////▶ | 𝐁𝐫𝐨𝐳|𝐀𝐱𝐞𝐥𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
+////////////▶ | 𝐁𝐫𝐨𝐳 | 𝐀𝐱𝐞𝐥 𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
 broz.on('group-participants-update', async (anu) => {
 if (!welkom.includes(anu.jid)) return
 try {
@@ -286,7 +286,7 @@ broz.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo:
 console.log('Error : %s', color(e, 'red'))
 }
 })
-////////////▶ | 𝐁𝐫𝐨𝐳|𝐀𝐱𝐞𝐥𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
+////////////▶ | 𝐁𝐫𝐨𝐳 | 𝐀𝐱𝐞𝐥 𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
 broz.on('chat-update', async(sam) => {
     try {
         if (!sam.hasNewMessage) return
@@ -305,7 +305,7 @@ broz.on('chat-update', async(sam) => {
         chats = (type === 'conversation') ? sam.message.conversation : (type === 'extendedTextMessage') ? sam.message.extendedTextMessage.text : ''
         budy = (type === 'conversation' && sam.message.conversation.startsWith(prefix)) ? sam.message.conversation : (type == 'imageMessage') && sam.message.imageMessage.caption.startsWith(prefix) ? sam.message.imageMessage.caption : (type == 'videoMessage') && sam.message.videoMessage.caption.startsWith(prefix) ? sam.message.videoMessage.caption : (type == 'extendedTextMessage') && sam.message.extendedTextMessage.text.startsWith(prefix) ? sam.message.extendedTextMessage.text : ''
 	//budy = (type === 'conversation') ? sam.message.conversation : (type === 'extendedTextMessage') ? sam.message.extendedTextMessage.text : (type === 'listResponseMessage') ? sam.message.listResponseMessage.title : ''
-////////////▶ | 𝐁𝐫𝐨𝐳|𝐀𝐱𝐞𝐥𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
+////////////▶ | 𝐁𝐫𝐨𝐳 | 𝐀𝐱𝐞𝐥 𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
         if (prefix != "") {
         if (!body.startsWith(prefix)) {
         cmd = false
@@ -319,7 +319,7 @@ broz.on('chat-update', async(sam) => {
         comm = body.trim().split(" ").shift().toLowerCase()
         }
 	    
-////////////▶ | 𝐁𝐫𝐨𝐳|𝐀𝐱𝐞𝐥𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
+////////////▶ | 𝐁𝐫𝐨𝐳 | 𝐀𝐱𝐞𝐥 𝐲 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐚
 
 	const uploadImages = (filePath) => {
 	return new Promise(async (resolve, reject) => {
