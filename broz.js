@@ -4889,8 +4889,8 @@ if (isGroup && isAntiLink && isUrl(body) && !isAdmin && body != undefined) {
 var sial = sender.split('@')[0] + "@s.whatsapp.net"
 broz.groupRemove(from, [sial])
 }
-} 
-} catch(e) {
+}
+} catch (e) {
 const emror = String(e)
 if (emror.includes('convert')){ 
 return
@@ -4906,4 +4906,4 @@ return
 }
 console.log(chalk.greenBright("├"), chalk.keyword("yellow")("[  ERROR  ]"), chalk.keyword("red")(e))
 }
-})
+})                                    
